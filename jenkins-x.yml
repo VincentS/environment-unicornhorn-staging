@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: xprice-ci-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: xprice-ci-staging
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.xprice-ci.35.241.214.8.nip.io
+  pipelines: {}
